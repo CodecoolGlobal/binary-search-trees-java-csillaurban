@@ -7,6 +7,8 @@ public class BinarySearchTree {
 
     public static BinarySearchTree build(List<Integer> elements) {
         // TODO construct a binary search tree here
+
+
         return null;
     }
 

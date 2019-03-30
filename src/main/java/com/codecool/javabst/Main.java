@@ -13,6 +13,7 @@ public class Main {
         for (int i = 0; i < 50; i++) {
             numbers.add(i * 2 + 5);
         }
+        System.out.println(numbers);
 
         BinarySearchTree myTree = BinarySearchTree.build(numbers);
 
