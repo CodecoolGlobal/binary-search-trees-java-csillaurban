@@ -13,6 +13,9 @@ public class Main {
         for (int i = 1; i < 8; i++) {
             numbers.add(i);
         }
+
+        numbers.add(55);
+
         System.out.println(numbers);
 
         BinarySearchTree myTree = new BinarySearchTree();
@@ -23,7 +26,16 @@ public class Main {
         System.out.println(myTree.search(55)); // should be true
         System.out.println(myTree.search(34535)); // should be false
 
-
+        myTree.add(10);
+        myTree.add(22);
+        myTree.add(132);
+        myTree.add(12);
+        myTree.add(8);
+        System.out.println(myTree.search(10));
+        System.out.println(myTree.search(12));
+        System.out.println(myTree.search(4));
+        myTree.remove(12);
+        System.out.println(myTree.search(12));
         System.out.println("done");
     }
 }
