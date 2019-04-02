@@ -3,6 +3,8 @@ package com.codecool.javabst;
 import java.util.List;
 
 // https://www.journaldev.com/23086/binary-search-tree-bst-search-insert-remove#bst-removing-element-recursively
+//https://www.geeksforgeeks.org/binary-search-tree-set-2-delete/
+
 // Skeleton for the Binary search tree. Feel free to modify this class.
 public class BinarySearchTree {
     Node root;
